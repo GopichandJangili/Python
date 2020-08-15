@@ -76,3 +76,9 @@ s2 = pd.Series(d2)
 print(s2)
 s3 = s2.astype(float)
 print(s3)
+
+####11 Transpose returns self
+s = pd.Series([1,2,3,4])
+p = s.transpose()
+print(s)
+print(p)
